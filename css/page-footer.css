@@ -35,6 +35,7 @@ footer {
 .footer-links li a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 .footer-links li a:hover {
