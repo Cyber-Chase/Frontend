@@ -22,26 +22,10 @@ footer {
     align-items: center;
 }
 
-.footer-links {
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-links li {
-    display: inline;
-    margin-right: 10px;
-}
-
-.footer-links li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
 .footer-links li a:hover {
     color: #2291F6;
 }
 
 .github-logo img {
-    height: 30px;
+    height: 6vh;
 }

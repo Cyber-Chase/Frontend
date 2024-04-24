@@ -1,7 +1,9 @@
 /* Body */
 
+
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
 }
 
@@ -10,22 +12,24 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 11vh;
 }
 
 #Logo {
-    height: 50px;
+    height: 15vh;
+    margin-right: 3vh;
 }
 
 .nav-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
 }
 
 .nav-links li {
-    display: inline;
-    margin-left: 20px;
+    letter-spacing: 3px;
+    margin-right: 32px;
 }
 
 .nav-links li a {
