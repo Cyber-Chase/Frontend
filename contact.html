@@ -26,7 +26,19 @@
 
         <main>
 
-
+            <div class="container">
+                <h1></h1>
+                <form id="contactForm">
+                    <label for="nome">Type your name: </label>
+                    <input type="nome" id="name" name="name" required>
+                    <label for="email">Type your e-mail address: </label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Type your message: </label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Send message</button>
+                </form>
+                <div id="statusMessage"></div>
+            </div>
 
         </main>
 
