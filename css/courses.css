@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #0a0a0a;
     color: #ffffff
 }
@@ -47,6 +47,14 @@ body {
 
 .main {
     flex: 1;
+}
+
+.page-title {
+    color: #2291F6;
+    text-align: center;
+    font-size: 3em;
+    margin: 1em 0 1em 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .course-list {
@@ -94,4 +102,30 @@ body {
 
 .start-button:hover {
     background-color: #0056b3; 
+}
+
+.search-bar {
+    display: flex;
+    margin: 0 auto 20px;
+    width: 95%;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #2291F6;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
 }

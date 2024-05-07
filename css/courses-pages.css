@@ -12,23 +12,70 @@ main {
     color: #2291F6;
     text-align: center;
     font-size: 3em;
-    margin: 2em 0 1em 0;
+    margin: 1em 0 1em 0;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .certificate-button {
-    display: block;
-    width: 100%;
+    width: 20%;
     margin-top: 2vh;
-    padding: 2vh 2vh;
     background-color: #2291F6; 
     color: #fff; 
     border: none;
     border-radius: 2vh;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
 }
 
 .certificate-button:hover {
     background-color: #0056b3; 
+}
+
+.congratulations-heading {
+    text-align: center;
+}
+
+.certificate-form {
+    text-align: center;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.name-input {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.certificate-container {
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .name-input {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .name-input {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .certificate-button {
+        width: 100%;
+    }
 }
