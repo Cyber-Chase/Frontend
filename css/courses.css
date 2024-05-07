@@ -4,6 +4,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff
 }
 
 .navbar {
@@ -45,4 +47,51 @@ body {
 
 .main {
     flex: 1;
+}
+
+.course-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vh;
+}
+
+.course-item {
+    background-color: #2291F6;
+    border-radius: 2vh;
+    padding: 5vh;
+    margin: 5vh 5vh;
+}
+
+@media screen and (max-width: 768px) {
+    .course-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+.course-title {
+    color: #f2f2f2;
+    margin-bottom: 2vh;
+}
+
+.course-description {
+    color: #222222;
+}
+
+.start-button {
+    display: block;
+    width: 100%;
+    margin-top: 2vh;
+    padding: 2vh 2vh;
+    background-color: #222222; 
+    color: #fff; 
+    border: none;
+    border-radius: 2vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #0056b3; 
 }

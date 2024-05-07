@@ -8,10 +8,27 @@ main {
     margin: 0 12em 3em;
 }
 
-.titulo {
+.title {
     color: #2291F6;
     text-align: center;
     font-size: 3em;
     margin: 2em 0 1em 0;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.certificate-button {
+    display: block;
+    width: 100%;
+    margin-top: 2vh;
+    padding: 2vh 2vh;
+    background-color: #2291F6; 
+    color: #fff; 
+    border: none;
+    border-radius: 2vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.certificate-button:hover {
+    background-color: #0056b3; 
 }
