@@ -47,7 +47,7 @@ body {
 /* Main */
 
 main {
-    margin: 0 12em 3em;
+    margin: 0 5vh 3vh;
 }
 
 .welcome-title {
@@ -56,4 +56,20 @@ main {
     font-size: 3em;
     margin: 1em 0 1em 0;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.courses-button {
+    background-color: #2291F6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 2vh;
+}
+
+.courses-button:hover {
+    background-color: #0056b3;
 }

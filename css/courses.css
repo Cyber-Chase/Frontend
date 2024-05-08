@@ -129,3 +129,23 @@ body {
 .search-bar button:hover {
     background-color: #0056b3;
 }
+
+
+.search-img {
+    width: 3vh;
+    height: 3vh;
+}
+
+@media only screen and (min-width: 600px) {
+    .search-bar {
+        width: 95%;
+        max-width: 95%
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .search-bar {
+        width: 90%;
+        max-width: 85%;
+    }
+}

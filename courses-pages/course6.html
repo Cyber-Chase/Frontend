@@ -55,6 +55,27 @@
 
                 <li>Phishing via Phone (Vishing): Phone calls where scammers pose as representatives of companies,
                     banks, or government agencies to obtain personal information.</li>
+
+                <li>Spear Phishing: Spear phishing is a targeted form of phishing attack where attackers customize their 
+                    messages to specific individuals or organizations. Unlike regular phishing, which casts a wide net hoping to 
+                    catch any victims, spear phishing is more tailored and often appears to come from a trusted or known source. 
+                    Attackers gather information about their targets from various sources such as social media, company websites, 
+                    or previous data breaches to craft convincing emails. These emails often contain malicious links or attachments 
+                    designed to steal sensitive information or install malware on the victim's system.</li>
+
+                <li>Whaling: Whaling is a type of phishing attack that specifically targets high-profile individuals within an organization, 
+                    such as executives or top-level management. The term "whaling" is derived from the analogy of these individuals being 
+                    "big fish" in the corporate sea. Attackers aim to deceive these key figures into divulging sensitive information, 
+                    transferring funds, or granting access to confidential systems. Whaling attacks often involve sophisticated social 
+                    engineering techniques and may use information gleaned from publicly available sources to craft convincing and personalized 
+                    messages.</li>
+
+                <li>Scams: Scams encompass a wide range of fraudulent schemes designed to deceive individuals or organizations for financial 
+                    gain. These can include email scams, phone scams, online shopping scams, investment scams, and many others. Scammers 
+                    often employ persuasive tactics, false promises, or fear-inducing messages to manipulate their victims into providing 
+                    money, personal information, or access to their assets. With the rise of digital communication and online transactions, 
+                    scams have become increasingly sophisticated, making it essential for individuals and businesses to remain vigilant and 
+                    educate themselves about common scam tactics.</li>
             </ul> <br>
 
             <h2>How to identify Phishing</h2> <br>
@@ -63,15 +84,17 @@
                     in emails.
                     Legitimate companies typically have well-written and reviewed communications.</li>
 
-                <li>Source Verification: Always verify the sender's email address or phone number.
+                <li>Source Verification: Always verify the sender's email address or phone number, specially senders with 
+                    whom you have no relashionship.
                     If you don't recognize the sender or if the communication seems suspicious, be cautious.</li>
 
                 <li>Beware of Suspicious URLs: Before clicking on a link, hover over it (without clicking) to see the
-                    actual URL address.
-                    If it looks strange or suspicious, don't click.</li>
+                    actual URL address and pay attention to minimum details, such as different letters. An example is the difference
+                    between the "a"(latin alphabet) and the "α"(greek alphabet), which is very used in fake links.</li>
 
                 <li>Analyze Message Content: Be aware of messages that request personal or financial information, demand
-                    immediate action, or create a sense of urgency, specially messages that were not expected.
+                    immediate action, or create a sense of urgency, specially messages that were not expected, besides of messages 
+                    with something too good to be true. In these cases, attachments are also suspicious.
                     These are common phishing tactics.</li>
             </ul> <br>
 
@@ -109,12 +132,12 @@
             </p>
 
             <br> <br> <br>
-            <h2>If you want to know if you are truly attentive in practice, you can sign up below to receive our
+            <h2 class="test-heading">If you want to know if you are truly attentive in practice, you can sign up below to receive our
                 phishing tests.</h2><br>
-            <form id="FormPhish">
-                <label for="email">Enter your e-mail: </label><br>
-                <input type="email" id="email" name="email" required><br>
-                <button type="submit">I am up for the tests!</button>
+            <form id="FormPhish" class="test-form">
+                <label for="email">Enter your e-mail: </label><br><br>
+                <input type="email" id="email" name="email" class="email-input" required><br>
+                <button type="submit" class="test-button">I am up for the tests!</button>
             </form>
 
             <br> <br> <br>

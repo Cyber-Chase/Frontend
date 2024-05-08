@@ -5,7 +5,7 @@ body {
 }
 
 main {
-    margin: 0 12em 3em;
+    margin: 0 5vh 3vh;
 }
 
 .title {
@@ -76,6 +76,73 @@ main {
     }
 
     .certificate-button {
-        width: 100%;
+        width: 50%;
+    }
+}
+
+
+
+
+.test-button {
+    width: 20%;
+    margin-top: 2vh;
+    background-color: #2291F6; 
+    color: #fff; 
+    border: none;
+    border-radius: 2vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.test-button:hover {
+    background-color: #0056b3; 
+}
+
+.test-heading {
+    text-align: center;
+}
+
+.test-form {
+    text-align: center;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.email-input {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.certificate-container {
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .email-input {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .email-input {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .test-button {
+        width: 50%;
     }
 }
