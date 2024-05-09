@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Geologica', sans-serif;
     background-color: #0a0a0a;
     color: #020202
 }
@@ -14,6 +14,9 @@ body {
     font-size: 3em;
     margin: 1em 0 1em 0;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar {

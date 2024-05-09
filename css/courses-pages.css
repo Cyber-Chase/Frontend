@@ -14,6 +14,9 @@ main {
     font-size: 3em;
     margin: 1em 0 1em 0;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .certificate-button {
@@ -31,6 +34,7 @@ main {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px;
+    font-family: 'Geologica', sans-serif;
 }
 
 .certificate-button:hover {
@@ -39,15 +43,18 @@ main {
 
 .congratulations-heading {
     text-align: center;
+    font-family: 'Geologica', sans-serif;
 }
 
 .certificate-form {
     text-align: center;
+    font-family: 'Geologica', sans-serif;
 }
 
 .form-label {
     display: block;
     margin-bottom: 10px;
+    font-family: 'Geologica', sans-serif;
 }
 
 .name-input {
@@ -56,6 +63,7 @@ main {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
 }
 
 .certificate-container {
@@ -98,6 +106,7 @@ main {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px;
+    font-family: 'Geologica', sans-serif;
 }
 
 .test-button:hover {
@@ -106,15 +115,18 @@ main {
 
 .test-heading {
     text-align: center;
+    font-family: 'Geologica', sans-serif;
 }
 
 .test-form {
     text-align: center;
+    font-family: 'Geologica', sans-serif;
 }
 
 .form-label {
     display: block;
     margin-bottom: 10px;
+    font-family: 'Geologica', sans-serif;
 }
 
 .email-input {
@@ -123,6 +135,7 @@ main {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
 }
 
 .certificate-container {
