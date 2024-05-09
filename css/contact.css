@@ -77,6 +77,7 @@ body {
 label {
     display: block;
     margin-bottom: 8px;
+    font-family: 'Geologica', sans-serif;
 }
 
 input[type="nome"],
@@ -88,6 +89,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
 }
 
 textarea {
@@ -103,6 +105,7 @@ button[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: 'Geologica', sans-serif;
 }
 
 button[type="submit"]:hover {
