@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Geologica', sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff
+}
+
+.navbar {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11vh;
+}
+
+#Logo {
+    height: 15vh;
+    margin-right: 3vh;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.nav-links li {
+    letter-spacing: 3px;
+    margin-right: 32px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #2291F6;
+}
+
+/* Main */
+
+main {
+    margin: 0 5vh 3vh;
+}
+
+.test-title {
+    color: #2291F6;
+    text-align: center;
+    font-size: 3em;
+    margin: 1em 0 1em 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: slideIn 1s forwards ease; 
+}
+
+@keyframes slideIn {
+    from {
+        margin-top: 50vh;
+        opacity: 0;
+    }
+    to {
+        margin-top: 1em;
+        opacity: 1;
+    }
+}
+
+.courses-button {
+    background-color: #2291F6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 2vh;
+    font-family: 'Geologica', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.courses-button:hover {
+    background-color: #0056b3;
+}
+
+.course-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vh;
+}
+
+.main-courses {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vh;
+}
+
+.course-item {
+    background-color: #2291F6;
+    border-radius: 2vh;
+    padding: 5vh;
+    margin: 5vh 5vh;
+    transition: transform 0.3s ease;
+}
+
+.course-item:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .course-list {
+        grid-template-columns: 1fr;
+    }
+    .main-courses {
+        grid-template-columns: 1fr;
+    }
+}
+
+.course-title {
+    color: #f2f2f2;
+    margin-bottom: 2vh;
+}
+
+.course-description {
+    color: #222222;
+}
+
+.start-button {
+    display: block;
+    width: 100%;
+    margin-top: 2vh;
+    padding: 2vh 2vh;
+    background-color: #222222; 
+    color: #fff; 
+    border: none;
+    border-radius: 2vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Geologica', sans-serif;
+}
+
+.start-button:hover {
+    background-color: #0056b3; 
+}
+
+.text {
+    text-align: center;
+}
