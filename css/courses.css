@@ -73,6 +73,11 @@ body {
     border-radius: 2vh;
     padding: 5vh;
     margin: 5vh 5vh;
+    transition: transform 0.3s ease;
+}
+
+.course-item:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 768px) {
