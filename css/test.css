@@ -27,8 +27,8 @@ body {
 }
 
 .nav-links li {
-    letter-spacing: 3px;
-    margin-right: 32px;
+    letter-spacing: 0.3vh;
+    margin-right: 5vh;
 }
 
 .nav-links li a {
