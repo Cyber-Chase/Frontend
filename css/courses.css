@@ -58,6 +58,18 @@ body {
     font-family: "Racing Sans One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    animation: slideIn 1s forwards ease; 
+}
+
+@keyframes slideIn {
+    from {
+        margin-top: 50vh;
+        opacity: 0;
+    }
+    to {
+        margin-top: 1em;
+        opacity: 1;
+    }
 }
 
 .course-list {
