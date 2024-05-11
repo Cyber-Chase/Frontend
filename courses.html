@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Racing+Sans+One&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <script defer src="/js/home.js"></script>
 </head>
 
 
@@ -38,7 +39,7 @@
             <h1 class="page-title">Our Courses</h1>
 
             <div class="search-bar">
-                <input type="text" placeholder="Search Course...">
+                <input id="searchbar" type="text" placeholder="Search Course..." onkeyup="search()">
                 <button type="submit">
                     <img src="assets/icon/svg/magnifier1.svg" alt="Search Icon" class="search-img">
                 </button>
@@ -127,6 +128,8 @@
                         Course</button>
                 </li>
             </ul>
+
+            <script src="js/courses.js"></script>
 
         </main>
 

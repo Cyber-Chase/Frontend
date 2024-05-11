@@ -124,6 +124,11 @@ button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
+button:disabled {
+    cursor: not-allowed;
+    background-color: #36495b;
+}
+
 @media screen and (max-width: 768px) {
     .container {
         max-width: 80%;
