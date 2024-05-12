@@ -20,6 +20,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Racing+Sans+One&family=Roboto+Mono:wght@100&display=swap"
         rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
+        integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/courses-pages.js" defer></script>
 </head>
 
 
@@ -113,12 +117,21 @@
             </ul>
 
             <br> <br> <br>
+
             <h2 class="congratulations-heading">Congratulations on completing this course!</h2><br>
             <form id="FormCert" class="certificate-form">
                 <label for="name" class="form-label">Enter your name to generate a certificate: </label><br>
                 <input type="text" id="name" name="name" class="name-input" required><br>
-                <button type="submit" class="certificate-button">Generate Certificate</button>
+                <button type="button" id="certificate-button">Generate Certificate</button>
             </form>
+
+            <div id="certificate" hidden>
+                <h1>Certificate</h1>
+                <h4>This certificate is proudly presented to:</h4>
+                <h2 id="certificate-name"></h2>
+                <h3>for having completed the Antivirus course at Cyberchase.</h3>
+            </div>
+
     </div>
 
     </main>
@@ -135,6 +148,11 @@
     </footer>
 
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
+        integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/courses-pages.js" defer></script>
 
 </body>
 
