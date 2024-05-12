@@ -8,6 +8,7 @@
 # Technologies
 * HTML
 * CSS
+* JavaScript
 
 ## Screenshots
 ![Courses Page - Screenshot](https://imgur.com/mwAFx06.png)
