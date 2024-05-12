@@ -5,19 +5,54 @@ body {
 }
 
 main {
-    margin: 0 5vh 3vh;
+    margin: 0 12vw 8vh;
 }
 
-.title {
+.course-title {
     color: #2291F6;
-    text-align: center;
     font-size: 3em;
-    margin: 1em 0 1em 0;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     font-family: "Racing Sans One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    animation: slideIn 1s forwards ease; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+    margin: 1em 0 1em 0;
+
+    animation: slideIn 1s forwards ease;
+}
+
+#course-description {
+    font-size: larger;
+    text-align: center;
+
+    margin-top: 1em;
+}
+
+.course-subtitle {
+    color: #2291F6;
+    font-size: 150%;
+    font-weight: bold;
+
+    margin: 8vh 2vh 2vh;
+}
+
+.course-topic {
+    font-size: larger;
+    font-weight: bold;
+
+    margin-top: 3vh;
+}
+
+p {
+    margin-top: 1em;
+}
+
+ul li {
+    display: list-item;
+    list-style-type: disc;
+
+    margin-top: 1vh;
 }
 
 @keyframes slideIn {
@@ -54,8 +89,13 @@ main {
 }
 
 .congratulations-heading {
+    color: #2291F6;
     text-align: center;
     font-family: 'Geologica', sans-serif;
+    font-size: 175%;
+    font-weight: bolder;
+
+    margin-top: 10vh;
 }
 
 .certificate-form {
