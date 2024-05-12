@@ -172,3 +172,27 @@ body {
         max-width: 85%;
     }
 }
+
+.success{
+    color: #2291F6;
+    text-align: center;
+    font-size: 3em;
+    margin: 1em 0 1em 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: "Geologica", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    animation: slideIn 1s forwards ease; 
+}
+
+.error{
+    color: #2291F6;
+    text-align: center;
+    font-size: 3em;
+    margin: 1em 0 1em 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: "Geologica", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    animation: slideIn 1s forwards ease; 
+}

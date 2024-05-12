@@ -35,14 +35,19 @@
 
             <h1 class="contact-title">Talk to us!</h1>
             <div class="container">
-                <form class="contact-form">
+                <form class="contact-form" action="https://formsubmit.co/cyber0chase@gmail.com" method="POST" data-form>
                     <label for="nome">Type your name: </label>
                     <input type="nome" id="name" name="name" class="form-input" required>
                     <label for="email">Type your e-mail address: </label>
                     <input type="email" id="email" name="email" class="form-input" required>
                     <label for="message">Type your message: </label>
                     <textarea id="message" name="message" rows="4" class="form-textarea" required></textarea>
-                    <button type="submit" class="form-button">Send message</button>
+                    <button type="submit" class="form-button" data-button>Send message</button>
+
+                    <input type="hidden" name="accessKey" value="61eed7a3-909d-494d-8765-fd86212f3fce">
+                    <input type="hidden" name="redirectTo" value="css/after-form.css">
+
+
                 </form>
             </div>
 
