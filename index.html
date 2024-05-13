@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/chatbot.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,6 +52,25 @@
             <a class="courses-button-a" href="courses.html"><button class="courses-button">Our Courses</button></a>
             <div id="cyc-icon1"> <img src="assets/icon/svg/cyc-icon1.svg"> </div>
         </main>
+
+        <div id="chatbot-container" class="chatbot-container">
+            <div class="chatbot-header">
+                <img src="/assets/icon/svg/friendly-bot.svg" class="bot-avatar" alt="Bot Avatar">
+                <span class="bot-name">Cybot</span>
+            </div>
+            <div class="chatbot-body">
+                <div class="chatbot-body" id="chatbot-body">
+                    <div class="bubble bot-bubble">Welcome, Cyber Chaser!</div>
+                    <div class="bubble bot-bubble">I'm Cybot, your virtual assistant. How can I help you?</div>
+                </div>
+            </div>
+            <div class="chatbot-footer">
+                <input type="text" class="user-input" placeholder="Type your message...">
+                <button class="send-button" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+
+        <script src="chatbot.js"></script>
 
         <footer>
             <div class="footer-content">
