@@ -58,6 +58,22 @@ main {
     animation: slideIn 1s forwards ease; 
 }
 
+#about-text {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.mission-vision-values {
+    color: #2291F6;
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em 0;
+}
+
+.mvv-text {
+    text-align: center;
+}
+
 @keyframes slideIn {
     from {
         margin-top: 50vh;

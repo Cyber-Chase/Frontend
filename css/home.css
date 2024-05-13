@@ -62,6 +62,14 @@ main {
     animation: slideIn 1s forwards ease; 
 }
 
+#slogan {
+    text-align: center;
+}
+
+.home-description {
+    text-align: center;
+}
+
 @keyframes slideIn {
     from {
         margin-top: 50vh;
