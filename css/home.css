@@ -52,13 +52,15 @@ main {
 
 .welcome-title {
     color: #2291F6;
-    text-align: center;
     font-size: 3em;
-    margin: 1em 0 1em 0;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     font-family: "Racing Sans One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+    margin: 1em 0 1em 0;
+
     animation: slideIn 1s forwards ease; 
 }
 
@@ -81,19 +83,34 @@ main {
     }
 }
 
+.courses-button-a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
 .courses-button {
-    background-color: #2291F6;
     color: #fff;
+    background-color: #2291F6;
     border: none;
+    font-family: 'Geologica', sans-serif;
+    text-decoration: none;
+
+    margin: 2vh 0 5vh;
     padding: 10px 20px;
     border-radius: 5px;
+
     cursor: pointer;
-    text-decoration: none;
     transition: background-color 0.3s ease;
-    margin-top: 2vh;
-    font-family: 'Geologica', sans-serif;
 }
 
 .courses-button:hover {
     background-color: #0056b3;
+}
+
+#cyc-icon1 {
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
 }

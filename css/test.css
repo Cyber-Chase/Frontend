@@ -149,6 +149,7 @@ main {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-family: 'Geologica', sans-serif;
+    text-decoration: none;
 }
 
 .start-button:hover {
