@@ -137,6 +137,10 @@ main {
 
 #slogan {
     text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+
+    margin-bottom: 3vh;
 }
 
 .home-description {
